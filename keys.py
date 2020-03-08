@@ -1,0 +1,8 @@
+consumer_key = "vyGSiFhe3uHUdkCWQBweZUJh9"
+consumer_secret = "PWObesJdSCaz8FEtxFZOGtsX8FlPBDcJC2QswT86ZTFMBwRLRG"
+access_key = "1174418880707493888-4qXcw8WEUdzoTur0Lbl0mfcnoQmQ6c"
+access_secret = "47EKhBjzEpffDYGZ7NMjWl06JoLpgSnGhQejbuTI5pjbZ"
+# consumer_key = ""
+# consumer_secret = "*****************************"
+# access_key = "*******************************************"
+# access_secret = "**************************************"
