@@ -11,5 +11,8 @@ Flask-RESTful is an extension for Flask that adds support for quickly building R
 
 ## Step
 ### 1.Use Flask as your WEB service platform
+### 2.Integrate my module to become a RESTFUL system. Deploy my system to free AWS services:EC2.
+### 3.Develop simple WEB applications to test my system. I can download the zip file of the video on the website.
+
 
 
