@@ -10,6 +10,7 @@ from video import imgToVideo
 
 
 def worker(i):
+    q = queue.Queue()
     while True:
         item = q.get()
         if item is None:
