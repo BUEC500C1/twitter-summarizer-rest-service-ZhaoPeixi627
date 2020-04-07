@@ -2,6 +2,7 @@
 
 
 import os
+import sys
 import cv2
 import image
 from tweet import get_tweet
@@ -23,13 +24,19 @@ def imgToVideo(user):
            list.append(file)  
     # print(list)
     list.sort()
-    video=cv2.VideoWriter(f'./{users}.avi',cv2.VideoWriter_fourcc(*'MJPG'),0.333,(1960,1080)) 
+    video = cv2.VideoWriter(f'./{users}.avi',cv2.VideoWriter_fourcc(*'MJPG'),0.333,(1960,1080)) 
     for i in range(0,len(list)):
         img=cv2.imread(f'{path}'+list[i])
         # print(f'{path}'+list[i])
         img=cv2.resize(img,(1960,1080)) # resize the image to(1960,1080)
         video.write(img)
+    video.release()
 
+    
+if __name__ == '__main__':
+    imgToVideo(sys.argv[1])
+
+# imgToVideo("Eminem")
 
 
 
